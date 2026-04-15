@@ -17,6 +17,24 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
+nav:
+  - Home: index.md
+  - Homelab:
+    - Overview: homelab/index.md
+    - Server Rack: homelab/server-rack.md
+    - Servers:
+      - Overview: homelab/servers/index.md
+      - cp0101: homelab/servers/cp0101.md
+      - cp0102: homelab/servers/cp0102.md
+      - cp0103: homelab/servers/cp0103.md
+      - cp0104: homelab/servers/cp0104.md
+      - cp0105: homelab/servers/cp0105.md
+    - Network:
+      - Overview: homelab/network/index.md
+      - OPNsense: homelab/network/opnsense.md
+      - Network Diagram: homelab/network/diagram.md
+      - Internet: homelab/network/internet.md
+
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
