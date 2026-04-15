@@ -29,11 +29,7 @@ nav:
       - cp0103: homelab/servers/cp0103.md
       - cp0104: homelab/servers/cp0104.md
       - cp0105: homelab/servers/cp0105.md
-    - Network:
-      - Overview: homelab/network/index.md
-      - OPNsense: homelab/network/opnsense.md
-      - Network Diagram: homelab/network/diagram.md
-      - Internet: homelab/network/internet.md
+    - Network: homelab/network.md
 
 markdown_extensions:
   - pymdownx.superfences:
