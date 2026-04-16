@@ -2,7 +2,8 @@
 
 ## StarTech 12U Open Frame Rack
 
-The homelab uses a **StarTech 12U open-frame rack** to house all server nodes and network equipment.
+The homelab uses a **StarTech 12U open-frame rack** to house all server nodes
+and network equipment.
 
 | Property | Value |
 |----------|-------|

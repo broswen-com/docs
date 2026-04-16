@@ -1,6 +1,7 @@
 # Homelab
 
-Overview of the homelab infrastructure, including server hardware, rack equipment, and networking.
+Overview of the homelab infrastructure, including server hardware, rack
+equipment, and networking.
 
 ## Contents
 
