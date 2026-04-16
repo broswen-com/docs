@@ -14,12 +14,15 @@ The homelab uses a **StarTech 12U open-frame rack** to house all server nodes an
 
 | Unit | Equipment |
 |------|-----------|
-| 1U   | Network switch |
-| 2U   | OPNsense router |
-| 3U–7U | cp0101–cp0105 server nodes |
-| 8U+  | Available / cable management |
-
-## Notes
-
-- All servers are rack-mounted using standard 1U sliding rails.
-- Power distribution is handled via a rack-mounted PDU.
+| 12U   | Patch Panel |
+| 11U   | tp-link switch with PoE+ |
+| 10U   | SB8200 SURFboard® DOCSIS® 3.1 Cable Modem |
+| 9U   | OPNSense router mini pc |
+| 8U   | StarTech.com 8 Outlet Horizontal 1U Rack Mount PDU |
+| 7U   |  |
+| 6U   |  |
+| 5U   | CP0105 loose parts |
+| 4U   | CP0104 mini pc|
+| 3U   | CP0103 mini pc |
+| 2U   | CP0102 2U server |
+| 1U   | CP0101 2U server |

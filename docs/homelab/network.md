@@ -23,30 +23,30 @@ graph TD
     Internet[Xfinity Internet]
     Router[OPNsense Router<br/>192.168.1.1]
     Switch[Managed Switch]
-    cp0101[cp0101<br/>10.0.0.101]
-    cp0102[cp0102<br/>10.0.0.102]
-    cp0103[cp0103<br/>10.0.0.103]
-    cp0104[cp0104<br/>10.0.0.104]
-    cp0105[cp0105<br/>10.0.0.105]
+    CP0101[CP0101<br/>10.0.0.101]
+    CP0102[CP0102<br/>10.0.0.102]
+    CP0103[CP0103<br/>10.0.0.103]
+    CP0104[CP0104<br/>10.0.0.104]
+    CP0105[CP0105<br/>10.0.0.105]
 
     Internet --> Router
     Router --> Switch
-    Switch --> cp0101
-    Switch --> cp0102
-    Switch --> cp0103
-    Switch --> cp0104
-    Switch --> cp0105
+    Switch --> CP0101
+    Switch --> CP0102
+    Switch --> CP0103
+    Switch --> CP0104
+    Switch --> CP0105
 ```
 
 ## Server IP Assignments
 
 | Hostname | IP Address | Role |
 |----------|------------|------|
-| cp0101 | 10.0.0.101 | Control plane |
-| cp0102 | 10.0.0.102 | Worker |
-| cp0103 | 10.0.0.103 | Worker |
-| cp0104 | 10.0.0.104 | Worker |
-| cp0105 | 10.0.0.105 | Worker |
+| CP0101 | 10.0.0.101 | Control plane |
+| CP0102 | 10.0.0.102 | Worker |
+| CP0103 | 10.0.0.103 | Worker |
+| CP0104 | 10.0.0.104 | Worker |
+| CP0105 | 10.0.0.105 | Worker |
 
 ## DNS
 

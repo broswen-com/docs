@@ -24,11 +24,11 @@ nav:
     - Server Rack: homelab/server-rack.md
     - Servers:
       - Overview: homelab/servers/index.md
-      - cp0101: homelab/servers/cp0101.md
-      - cp0102: homelab/servers/cp0102.md
-      - cp0103: homelab/servers/cp0103.md
-      - cp0104: homelab/servers/cp0104.md
-      - cp0105: homelab/servers/cp0105.md
+      - CP0101: homelab/servers/CP0101.md
+      - CP0102: homelab/servers/CP0102.md
+      - CP0103: homelab/servers/CP0103.md
+      - CP0104: homelab/servers/CP0104.md
+      - CP0105: homelab/servers/CP0105.md
     - Network: homelab/network.md
 
 markdown_extensions:
