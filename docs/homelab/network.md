@@ -63,11 +63,13 @@ The homelab uses **Xfinity (Comcast)** as the ISP for broadband internet access.
 | Connection type | Cable / DOCSIS |
 | WAN IP | Dynamic (DHCP) |
 
-The WAN IP is assigned dynamically by Xfinity, so **Cloudflare DDNS** is used to keep the public hostname up to date.
+The WAN IP is assigned dynamically by Xfinity, so **Cloudflare DDNS** is used
+to keep the public hostname up to date.
 
 ### Cloudflare DDNS
 
-OPNsense runs a Dynamic DNS (DDNS) client that periodically checks the current public WAN IP and updates a Cloudflare DNS record when it changes.
+OPNsense runs a Dynamic DNS (DDNS) client that periodically checks the current
+public WAN IP and updates a Cloudflare DNS record when it changes.
 
 #### How It Works
 
