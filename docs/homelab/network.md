@@ -7,14 +7,13 @@ Overview of the homelab network infrastructure.
 | Device | Role |
 |--------|------|
 | OPNsense appliance | Firewall / router |
-| Managed switch | Layer 2 switching |
+| Managed switch | Layer 3 switching |
 
 ## Subnets
 
 | Network | CIDR | Gateway | Description |
 |---------|------|---------|-------------|
-| LAN | 192.168.1.0/24 | 192.168.1.1 | Main local network |
-| Servers | 10.0.0.0/24 | 10.0.0.1 | Server VLAN |
+| LAN | 10.0.0.0/8 | 10.0.0.1 | Main local network |
 
 ## Topology
 
@@ -22,7 +21,7 @@ Overview of the homelab network infrastructure.
 graph TD
     Internet[Xfinity Internet]
     Router[RT0101]
-    Switch[Managed Switch]
+    Switch[TP-Link TL-SG1016PE]
     CP0101[CP0101<br/>10.0.0.101]
     CP0102[CP0102<br/>10.0.0.102]
     CP0103[CP0103<br/>10.0.0.103]
