@@ -16,7 +16,7 @@ and network equipment.
 | Unit | Equipment |
 |------|-----------|
 | 12U   | Patch Panel |
-| 11U   | tp-link switch with PoE+ |
+| 11U   | TP-Link TL-SG1016PE |
 | 10U   | SB8200 SURFboard® DOCSIS® 3.1 Cable Modem |
 | 9U   | OPNSense router mini pc |
 | 8U   | StarTech.com 8 Outlet Horizontal 1U Rack Mount PDU |
