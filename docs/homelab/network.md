@@ -90,4 +90,6 @@ sequenceDiagram
 - `ddns.broswen.com` is updated by router-based DDNS to follow the current WAN IP.
 - External SSH ports in the `22xxx` range are forwarded to internal hosts in `10.0.0.xxx`.
 - Port mapping pattern: `22xxx` → `10.0.0.xxx`.
+- The last three digits of the SSH port map to the last three digits of
+  the host IP.
   Example: `22101` → `10.0.0.101` / CP0101.
