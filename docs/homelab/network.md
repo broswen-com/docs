@@ -83,3 +83,11 @@ sequenceDiagram
         Cloudflare-->>OPNsense: 200 OK
     end
 ```
+
+## SSH Access
+
+- `ssh.broswen.com` is a CNAME to `ddns.broswen.com`.
+- `ddns.broswen.com` is updated by router-based DDNS to follow the current WAN IP.
+- External SSH ports in the `22xxx` range are forwarded to internal hosts in `10.0.0.xxx`.
+- Port mapping pattern: `22xxx` → `10.0.0.xxx`.
+  Example: `22101` → `10.0.0.101` / CP0101.
